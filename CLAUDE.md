@@ -4,7 +4,7 @@
 
 ## 開始任何工作前
 
-1. 先讀 [knowledge/style-guide.md](knowledge/style-guide.md)：所有新文件、教材、計畫書都依這份風格撰寫。
+1. 先讀 [knowledge/README.md](knowledge/README.md) 找到對應的 playbook 與範本，並依 [knowledge/style-guide.md](knowledge/style-guide.md) 的風格撰寫。
 2. 需要參考過往素材時，看 [knowledge/repo-catalog.md](knowledge/repo-catalog.md)，原文摘錄在 [knowledge/sources/](knowledge/sources/)。
 3. 專題計畫書依 [knowledge/templates/project-plan.md](knowledge/templates/project-plan.md) 的章節結構撰寫。
 4. 已產出的文件清單見 [knowledge/docs-index.md](knowledge/docs-index.md)，延續修改時以那些文件為準。
