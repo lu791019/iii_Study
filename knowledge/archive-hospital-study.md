@@ -15,10 +15,9 @@
 
 - **轉職案例**：作為「講師本人當年的專題」，對照 [style-guide.md](style-guide.md) 的三級（作業／作品／MVP），示範一個專題怎麼從作業升級到 MVP。
 - **教學反例**：Notebook 檔名與流程混亂、資料與程式混放、帳密與內網位址寫死在程式中，適合當「專題常見問題」的教材。
-- **不要引用原始資料**：資料檔含疑似真實病患紀錄。
+- **資料為假資料**：檔案中的病歷號、醫師代碼等為示範用假資料（依 Dex 說明）。
 
 ## 安全注意
 
-- `iii_project_ML_predict/Step 1_df and csv can export in Mysql in sure.ipynb` 含一組 MySQL 帳號密碼。
-- 多個 Notebook 寫死內網 IP（Elasticsearch、MongoDB）。
-- 本 repo 為公開 repo；建議把 archive 移出公開 repo，或把 repo 改為私人並清除 git 歷史。若該密碼仍在其他地方使用，應更換。
+- 2026-10-10 已將 Notebook 中的 MySQL 密碼替換為 `<PASSWORD>`、內網 IP 替換為 `<HOST>`。
+- 舊版本仍留在 git 歷史中；若該密碼仍在其他地方使用，應更換，或清除 git 歷史。

@@ -37,7 +37,7 @@
 
 ## 注意事項
 
-- **iii_DB102_Project_Hospital_assitant 的 `Resources/CT.csv`（公開）**：約 9.7 萬列醫院 CT 檢查紀錄，含疑似病歷號、醫師代碼、性別、年齡。建議轉私人或移除並清除 git 歷史。本 repo 的 `archive/` 也有同類資料。
+- **iii_DB102_Project_Hospital_assitant 的 `Resources/CT.csv`（公開）**：約 9.7 萬列醫院檢查紀錄格式的資料；依 Dex 說明為假資料。
 - **dex-agent-os（公開）**：含個人日記與 `.claude/settings.local.json`。諮詢紀錄不要 commit 進公開 repo。
 - **midterm-mvp-template**：`_instructor/` 的解答是公開的，學員看得到。
 - **爬蟲課程 repo**：README 中的 `root / 1234` 是本機開發預設值，風險低，但教學時要提醒不可用於正式環境。
