@@ -4,6 +4,11 @@ Claude 文件存放在 claude.ai，連結需登入 Dex 的帳號才能開啟。
 
 | 日期 | 文件 | 說明 |
 | --- | --- | --- |
+| 2026-10-13 | [CI/CD 與軟體工程：讓資料專題可測試、可部署](https://claude.ai/code/artifact/ef17e4b1-672a-4db7-bae8-b4c01568b0db) | 進階積木；台股爬蟲課補充 A、F、G、H、I |
+| 2026-10-13 | [並行與分散式：從一支爬蟲到分散式系統](https://claude.ai/code/artifact/3bdbd5ee-4e3d-4a6b-92b1-153e8622b87f) | 進階積木；補充 B、J |
+| 2026-10-13 | [資料庫進階：索引、交易與 NoSQL](https://claude.ai/code/artifact/7c1aa990-d21c-4e8a-8888-7a1bfa3ad803) | 進階積木；補充 C、D |
+| 2026-10-13 | [資料 API 服務化：從 MySQL 到 FastAPI](https://claude.ai/code/artifact/4d0e08e3-c964-4def-8a3a-e1e5c7a1913d) | 進階積木；補充 E |
+| 2026-10-13 | [BigQuery 進階與雲地混合](https://claude.ai/code/artifact/127806f0-e177-48f6-83eb-d4fc6a1c24ef) | 進階積木；補充 K、L |
 | 2026-10-13 | [資料專題積木地圖：從資料收集到機器學習](https://claude.ai/code/artifact/9aa85854-ec93-4b32-8a7a-dc333bafd65f) | 總覽：8 塊積木、專題等級與組合、文件清單 |
 | 2026-10-13 | [資料收集：從題目到第一份原始資料](https://claude.ai/code/artifact/844f0319-5889-41d4-ae9f-ba9531459371) | 積木 1 |
 | 2026-10-13 | [資料爬蟲：從一支腳本到分散式爬蟲](https://claude.ai/code/artifact/5fa34f40-1912-483f-a13a-8bd0dc158a55) | 積木 2；台股、Hahow 爬蟲課 |
