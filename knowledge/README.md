@@ -37,7 +37,8 @@
 | --- | --- |
 | [repo-catalog.md](repo-catalog.md) | Dex 所有 repo 的盤點與推薦度 |
 | [archive-hospital-study.md](archive-hospital-study.md) | archive/ 舊專題摘要 |
-| [docs-index.md](docs-index.md) | 已產出的 Claude 文件連結 |
+| [docs-index.md](docs-index.md) | 已產出的 Claude 文件連結（含 8 塊積木主題文件系列） |
+| [topic-briefs/](topic-briefs/) | 主題文件的撰寫素材：資料收集、爬蟲、ETL、分析、排程部署 |
 | [claude-setup/](claude-setup/) | 本機 Claude Code 設定：個人 CLAUDE.md 範本與安裝方式 |
 | [style-evidence/](style-evidence/) | 風格規則的原文例句 |
 | [sources/](sources/) | 參考 repo 的 README 快照 |
