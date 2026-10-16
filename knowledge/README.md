@@ -1,8 +1,17 @@
 # 知識庫
 
-讓之後的工作（人或 AI）能理解 Dex 的教學與諮詢方式，並延續同一種風格。內容整理自 Dex 的五個教材 repo 與本 repo 的產出（2026-10-10）。
+讓之後的工作（人或 AI）能理解 Dex 的教學與諮詢方式，並延續同一種風格。內容整理自 Dex 的 40 多個 repo、公開網站與本 repo 的產出（最後更新 2026-10-16）。
 
-## 先讀
+## 先讀：Dex 是誰
+
+| 文件 | 內容 |
+| --- | --- |
+| [about-dex/profile.md](about-dex/profile.md) | 身分與角色、轉職歷程、個人品牌與頻道、服務對象、代表作品 |
+| [about-dex/values-and-voice.md](about-dex/values-and-voice.md) | 核心信念（附原文出處）、品牌語氣、面對學員典型情境的回應方式 |
+| [about-dex/career-timeline.md](about-dex/career-timeline.md) | 依年份的技術歷程，以及給學員聽的三階段轉職故事 |
+| [about-dex/expertise-map.md](about-dex/expertise-map.md) | 技能地圖：領域、技術、證據 repo、可以教什麼 |
+
+## 先讀：怎麼寫
 
 | 文件 | 內容 |
 | --- | --- |
@@ -18,6 +27,9 @@
 | [playbooks/course-design.md](playbooks/course-design.md) | 帶狀課設計：集數表、每集手冊結構、環境建置教學順序 | de-course |
 | [playbooks/de-project-course.md](playbooks/de-project-course.md) | 業界等級 DE 實作課：章節、架構演進、學員常見坑 | stock-crawler-de-course-materials |
 | [playbooks/career-coaching.md](playbooks/career-coaching.md) | 轉職諮詢：個人檔案、職缺追蹤、行為面試題庫、建議諮詢流程 | job-hunter-v2 |
+| [playbooks/corporate-training.md](playbooks/corporate-training.md) | 企業內訓課程設計：場次結構、分鐘級時程、實作與救援表 | 企業內訓 YOLO 課（私） |
+| [playbooks/content-channel.md](playbooks/content-channel.md) | cohort 教學平台與社群：定位、內容配置、決策方法、產製流程 | channel-learn、channel-learn-planning（私） |
+| [playbooks/ai-product-building.md](playbooks/ai-product-building.md) | 打造 AI 工具與產品：共通管線、選型偏好、與 Claude Code 協作的文件組、需求到 MVP | aitool、coop-docgen、podmind、filmer、castflow、social-scraper、job-hunter-v2 |
 
 ## Templates：直接套用
 
@@ -35,7 +47,8 @@
 
 | 文件 | 內容 |
 | --- | --- |
-| [repo-catalog.md](repo-catalog.md) | Dex 所有 repo 的盤點與推薦度 |
+| [repo-catalog.md](repo-catalog.md) | Dex 所有 repo 的盤點（依類別），連到各 repo 筆記 |
+| [repo-notes/](repo-notes/) | 每個 repo 一份：用途、技術、知識精華、可當什麼教學案例 |
 | [archive-hospital-study.md](archive-hospital-study.md) | archive/ 舊專題摘要 |
 | [docs-index.md](docs-index.md) | 已產出的 Claude 文件連結（含 8 塊積木主題文件系列） |
 | [topic-briefs/](topic-briefs/) | 主題文件的撰寫素材：資料收集、爬蟲、ETL、分析、排程部署 |

@@ -7,7 +7,7 @@ description: 依 Dex 的風格撰寫轉職諮詢、專題業師與講師用的�
 
 ## 步驟
 
-1. 讀 `knowledge/style-guide.md`，依其中的心法、結構與語氣撰寫。
+1. 讀 `knowledge/about-dex/values-and-voice.md` 與 `knowledge/style-guide.md`，依其中的信念、結構與語氣撰寫。
 2. 依文件類型讀對應的 playbook 與範本：
 
 | 文件類型 | 先讀 | 範本 |
@@ -17,7 +17,11 @@ description: 依 Dex 的風格撰寫轉職諮詢、專題業師與講師用的�
 | 帶狀課程 | `knowledge/playbooks/course-design.md` | — |
 | DE 實作課 | `knowledge/playbooks/de-project-course.md` | — |
 | Demo Day、復盤 | `knowledge/playbooks/student-project-mentoring.md` | `knowledge/templates/demo-day-rubric.md`、`knowledge/templates/retro-and-resume-checklist.md` |
-| 轉職諮詢 | `knowledge/playbooks/career-coaching.md` | `knowledge/templates/consultation-intake.md` |
+| 轉職諮詢 | `knowledge/playbooks/career-coaching.md`、`knowledge/about-dex/career-timeline.md`（Dex 自己的轉職故事） | `knowledge/templates/consultation-intake.md` |
+| 企業內訓 | `knowledge/playbooks/corporate-training.md` | `knowledge/templates/instructor-guide.md` |
+| 教學平台與社群內容 | `knowledge/playbooks/content-channel.md` | — |
+| AI 工具或產品型專題 | `knowledge/playbooks/ai-product-building.md` | `knowledge/templates/project-plan.md` |
+| 資料技術主題教材 | `knowledge/docs-index.md`（8 塊積木 + 5 份進階文件） | `knowledge/topic-briefs/` |
 
 3. 需要過往範例時查 `knowledge/repo-catalog.md` 與 `knowledge/docs-index.md`。
 4. 完成後把新文件加入 `knowledge/docs-index.md`。
