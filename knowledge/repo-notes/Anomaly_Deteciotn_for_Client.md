@@ -6,7 +6,7 @@
 | --- | --- |
 | 連結 | https://github.com/lu791019/Anomaly_Deteciotn_for_Client |
 | 年份 | 2020-01～02（Notebook 檔名 0117、0122；結果資料夾 2020-02-21；最後 commit 2020-03-09） |
-| 情境 | 工作（推論：線上教育公司 Big Data Engineer 時期，程式中出現該產業的品牌代號） |
+| 情境 | 工作：線上教育公司 Big Data Engineer 時期（Dex 確認） |
 | 技術 | pandas、SQLAlchemy（SQL Server）、category_encoders TargetEncoder、scikit-learn One-Class SVM、SMOTE + SVC（舊版腳本）、joblib、logging、ConfigParser |
 
 ## 做了什麼

@@ -6,7 +6,7 @@
 | --- | --- |
 | 連結 | https://github.com/lu791019/Grid-Backend |
 | 年份 | 2024-07～11（migration 時間戳 20240705 → 20241111；最後 commit 2024-11-15） |
-| 情境 | 工作（推論：資料工程與後端時期的能源／智慧電網專案） |
+| 情境 | 工作：資料工程與後端時期的能源／智慧電網專案（Dex 確認） |
 | 技術 | TypeScript、Hono、MQTT、InfluxDB（時序資料）、PostgreSQL + Sequelize（migration）、node-cron（氣象資料排程）、nodemailer（告警信）、Azure IoT SDK、xlsx、winston、Jest + ts-jest + sequelize-mock、Docker |
 | 相關 | [Grid-Edge](Grid-Edge.md)（邊緣端） |
 

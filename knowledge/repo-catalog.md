@@ -47,7 +47,7 @@ Dex 所有 repo 的用途與對應的知識庫文件。盤點日期：2026-10-16
 | [castflow](https://github.com/lu791019/castflow) | 公 | 上傳音訊 → AI 轉錄 → 依個人風格生成 6 平台文案 → 排程直發 Threads 與 Facebook。 | [筆記](repo-notes/castflow.md) | — |
 | [social-scraper](https://github.com/lu791019/social-scraper) | 公 | `scraper/`（各平台）、`media/`（OCR、轉錄）、`services/`（Sheet、摘要、Notion）、`line_webhook/`。 | [筆記](repo-notes/social-scraper.md) | — |
 
-## 工作與產業專案（推論）
+## 工作與產業專案
 
 | repo | 公/私 | 用途 | 筆記 | 延伸文件 |
 | --- | --- | --- | --- | --- |

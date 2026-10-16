@@ -18,7 +18,4 @@
 | 台股爬蟲課 補充 K | close_model 指標前後不一致（4.12/0.9986 與 4.15/0.9985）；INFORMATION_SCHEMA 範例用 `region-us`，但 dataset 在 asia-east1。 | 「BigQuery 進階與雲地混合」文件 |
 | 台股爬蟲課 補充 B | 沒有實測的速度數字，文件中的秒數為估計值。 | 「並行與分散式」文件 |
 | Hahow 爬蟲 | 每頁只停 0.1 秒，DataDreamers 情境 2 建議每秒 1 次以內。 | 「資料爬蟲」文件 |
-| 半導體職稱 | 各處寫法不同（QA、設備工程師、Defect Analyst）；學員版故事用「半導體 QA」或「半導體工程師」？ | about-dex/profile.md、career-timeline.md |
-| 進修班期間 | 資策會／TibaMe 大數據實體班的確切月份未能從 repo 核實（估計 2019 上半到 2019-09）。 | about-dex/career-timeline.md |
-| 工作 repo | Anomaly、Potentail_Client_Prediction_XGBoost、Sails、Grid 系列是否為工作專案、是否可公開？ | repo-catalog.md |
-| 2025 年經歷 | 學院行銷期間沒有公開技術 repo，轉職故事這段需要 Dex 口述補充。 | about-dex/career-timeline.md |
+| 進修班期間 | Dex 回答「2016 年 11 月」，與美光 2016/12–2019/01、專題 repo 皆在 2019 對不上；待確認指的是進修班還是半導體工作起點。 | about-dex/career-timeline.md |

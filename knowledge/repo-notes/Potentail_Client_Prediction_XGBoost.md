@@ -6,7 +6,7 @@
 | --- | --- |
 | 連結 | https://github.com/lu791019/Potentail_Client_Prediction_XGBoost |
 | 年份 | 2020（最後 commit 2020-08-09） |
-| 情境 | 工作（推論：線上教育公司 Big Data Engineer 時期） |
+| 情境 | 工作：線上教育公司 Big Data Engineer 時期（Dex 確認） |
 | 技術 | XGBoost（DMatrix）、xgbfir（特徵交互作用分析）、imbalanced-learn RandomUnderSampler、SQLAlchemy、XML 設定（ElementTree）、logging、Graphviz |
 
 ## 做了什麼

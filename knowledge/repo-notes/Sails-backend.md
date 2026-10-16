@@ -6,7 +6,7 @@
 | --- | --- |
 | 連結 | https://github.com/lu791019/Sails-backend |
 | 年份 | 2024-01～04（migration 時間戳 20240105 → 20240425；最後 commit 2024-11-15） |
-| 情境 | 工作（推論：資料工程與後端時期的能源專案；README 提到光達資料來自與研究機構的合作） |
+| 情境 | 工作：資料工程與後端時期的能源專案（Dex 確認）；README 提到光達資料來自與研究機構的合作） |
 | 技術 | Node.js、Express、JWT（express-jwt）、Swagger、MQTT、promise-ftp、csv-parser、InfluxDB、PostgreSQL + Sequelize migration、node-cron、winston、Jest + supertest、Docker |
 
 ## 做了什麼

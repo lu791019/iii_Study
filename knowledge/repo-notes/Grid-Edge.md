@@ -6,7 +6,7 @@
 | --- | --- |
 | 連結 | https://github.com/lu791019/Grid-Edge |
 | 年份 | 2024（最後 commit 2024-11-15，搭配 Grid-Backend 同日上傳） |
-| 情境 | 工作（推論：資料工程與後端時期的能源／智慧電網專案） |
+| 情境 | 工作：資料工程與後端時期的能源／智慧電網專案（Dex 確認） |
 | 技術 | TypeScript、Node.js、Hono、modbus-serial、net-snmp、MQTT、BullMQ + Redis（Modbus 讀寫佇列）、PouchDB（本地設定）、node-cron、winston（每日輪替 log）、Docker、私有 registry |
 | 相關 | [Grid-Backend](Grid-Backend.md)（雲端端） |
 

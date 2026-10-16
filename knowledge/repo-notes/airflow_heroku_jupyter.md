@@ -6,7 +6,7 @@
 | --- | --- |
 | 連結 | https://github.com/lu791019/airflow_heroku_jupyter |
 | 年份 | 2021（最後 commit 2021-01-27） |
-| 情境 | 自學（以開源 heroku-airflow 範本為底）；流程圖推論為工作流程 |
+| 情境 | 自學（以開源 heroku-airflow 範本為底）；流程圖是工作上的入倉流程（Dex 確認） |
 | 技術 | Apache Airflow（webserver、worker、scheduler）、Celery + Redis、Heroku Postgres、Procfile、JupyterLab；流程圖：Jupyter Hub on GPU server、HDFS、Hive Table、Hive Partition Table、MQ |
 
 ## 做了什麼

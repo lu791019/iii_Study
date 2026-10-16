@@ -40,11 +40,11 @@ Dex（Dex Lu，GitHub `lu791019`）：材料所畢業、非資訊本科，十年
 
 | 年份 | 公司 | 角色 | 網站上的一句話 |
 | --- | --- | --- | --- |
-| 2016–2019 | 台灣美光 | Defect Analyst Engineer（DRAM 缺陷分析） | 半導體製程，跨界的起點 |
+| 2016–2019 | 台灣美光 | 缺陷分析師（Defect Analyst Engineer，DRAM 缺陷分析）／半導體設備應用工程師 | 半導體製程，跨界的起點 |
 | 2019–2021 | TutorABC | Big Data Engineer | 走進資料工程的第一站 |
 | 2021 | LINE Bank | Data Engineer | 金融級資料管線實戰 |
 | 2021–2025 | 緯創資通 | Data Engineer & Back-End Developer | 資料工程 × 後端 × ESG 全球工廠數據平台 |
-| 2025–2026 | 水球軟體學院 | 行銷與技術雙棲（AI 課程行銷） | 從技術走進品牌與成長 |
+| 2025–2026 | 水球軟體學院、水球球特務公司 | 行銷專員（發文、行銷漏斗設計、短影音規劃、內部社群規劃） | 從技術走進品牌與成長 |
 | 2026– | Hamastar Tech | AI 技術總監 | 帶領 AI 開發，做想做的事 |
 
 出處：`daydreamdex-astro/src/pages/about.astro`（careerTimeline）、`index.astro`（reel）；舊版英文履歷頁 `lu791019.github.io/index.html` 的年月與此一致（美光 2016/12–2019/01、TutorABC 2019/11–2021/05、LINE Bank 2021/05–08、緯創 2021/08 起）。
@@ -53,10 +53,10 @@ Dex（Dex Lu，GitHub `lu791019`）：材料所畢業、非資訊本科，十年
 
 1. **為什麼離開半導體**：工具是公司內部的、「帶不走」，覺得缺乏成長感，想找「廣泛、精深且能帶的走」的技術。出處：部落格〈Python轉職指南〉（`daydreamdex-astro/src/content/blog/2024-08-04-python-career-transition-guide-and-experience.md`「轉職歷程」段）。
 2. **怎麼轉**：輪班休假時自學 Python，之後辭職參加資策會與緯育 TibaMe 合辦的「大數據與資料分析實體班」，與隊友做結業專題（醫院 CT 檢查時間預測 + LINE 推播，與本 repo `archive/` 的醫院專題是同一個，見 [archive-hospital-study.md](../archive-hospital-study.md)）。出處：同一篇「打穩基礎」「作品集的關鍵點 1」段。
-3. **工程師轉行銷**：技術做順後去程式教育機構做行銷，「技術圈的解讀是『走偏了』」，但他說那段路讓他學會「把技術講成別人聽得懂、也願意行動的話」。出處：`index.astro`（PART ONE · 起點）。
+3. **工程師轉行銷**：2025 年受水球老師徵招，加入水球軟體學院與水球球特務公司擔任行銷專員，負責發文、行銷漏斗設計、短影音規劃與內部社群規劃（Dex 口述，2026-10）。網站上的說法是：「技術圈的解讀是『走偏了』」，但他說那段路讓他學會「把技術講成別人聽得懂、也願意行動的話」。出處：`index.astro`（PART ONE · 起點）。
 4. **走進輔導**：「這段過程讓我理解『學習技術』到『進入職場』之間的落差，因此我開始投入職涯輔導」。出處：`about.astro`（我的故事）。
 
-注意：「從半導體 ___ 轉職」的稱呼各處不同（設備工程師、QA、Defect Analyst、DRAM 缺陷分析），寫新文件時以時間軸的「Defect Analyst Engineer（DRAM 缺陷分析）」為準，或直接寫「半導體工程師」。
+注意：半導體時期的職稱以 Dex 確認的「缺陷分析師／半導體設備應用工程師」為準（2026-10 口述）；英文寫 Defect Analyst Engineer。舊文案裡的「QA」不再使用。
 
 ## 個人品牌與頻道
 

@@ -11,7 +11,7 @@
 | 🟡 專題級 | 完整串起一條流程、能 Demo，但多為 Notebook 或單機腳本 |
 | ⚪ 練習級 | 課程作業、模板 fork、提案書 |
 
-「工作級」的 repo 多數是推論為工作專案（repo 本身沒有寫），見 [career-timeline.md](career-timeline.md) 的「待確認」。
+「工作級」的 repo（Grid、Sails、Anomaly、潛在客戶 XGBoost、airflow 流程圖）經 Dex 確認是工作專案，可以拿來當教學證據。
 
 ## 總覽
 
@@ -24,6 +24,7 @@
 | DevOps／雲 | 各 repo 的 Docker Compose、Heroku、Azure、GCP | 🟡～🟢 | 會用 Docker 包整套服務；CI/CD 的公開證據較少 |
 | IoT／工控 | Grid-Edge、Grid-Backend、Sails-backend | 🟢 | Modbus、SNMP、MQTT、時序資料庫的實戰經驗 |
 | AI 應用 | castflow、social-scraper、job-hunter-v2、agent 系統 | 🟡～🟢 | LLM、Whisper、Claude Code agent 工作流 |
+| 行銷與社群 | 水球軟體學院行銷專員（2025，口述）、castflow、channel-learn 的 Discord 經營 | 🟡 | 發文、行銷漏斗、短影音規劃、社群經營 |
 
 ## 細表
 
@@ -34,7 +35,7 @@
 | pandas ETL、時間欄位處理 | [iii_DB102_Project_Hospital_assitant](../repo-notes/iii_DB102_Project_Hospital_assitant.md)、archive 醫院專題 | 🟡 | 「髒資料 → 可建模資料」的第一課；用舊專題當反例講檔名與資料夾規劃 |
 | 多種資料庫寫入（MySQL、Elasticsearch、MongoDB） | [iii_DB102_Project_Hospital_assitant](../repo-notes/iii_DB102_Project_Hospital_assitant.md)、[iii_HA_recommend_system](../repo-notes/iii_HA_recommend_system.md) | 🟡 | SQL vs NoSQL 怎麼選；同一份資料寫進三種庫的差別 |
 | HDFS、PySpark RDD、Spark Streaming、Kafka | [iii_HA_data_pipeline_Spark_Streaming_with_kafka](../repo-notes/iii_HA_data_pipeline_Spark_Streaming_with_kafka.md) | 🟡 | 「pandas 版 → RDD 版 → Streaming 版」的漸進改寫，很適合講為什麼要分散式 |
-| Hadoop、Hive 分區表 | [airflow_heroku_jupyter](../repo-notes/airflow_heroku_jupyter.md)（流程圖） | 🟢（推論） | 檔案落地 → HDFS → Hive Table → Partition Table 的入倉流程 |
+| Hadoop、Hive 分區表 | [airflow_heroku_jupyter](../repo-notes/airflow_heroku_jupyter.md)（流程圖） | 🟢 | 檔案落地 → HDFS → Hive Table → Partition Table 的入倉流程 |
 | Airflow、Celery、RabbitMQ、BigQuery、Metabase | stock-crawler-de-course-materials、hahow-crawler-de-course-materials、[airflow_heroku_jupyter](../repo-notes/airflow_heroku_jupyter.md) | 🟢 | 業界等級 DE 管線（見 [../playbooks/de-project-course.md](../playbooks/de-project-course.md)） |
 | 時序資料（InfluxDB）＋關聯式設定（PostgreSQL） | [Grid-Backend](../repo-notes/Grid-Backend.md)、[Sails-backend](../repo-notes/Sails-backend.md) | 🟢 | 量測值與設定檔分開存；OLTP／時序庫的分工 |
 | 資料治理、DataOps | （公開 repo 無；依網站自述曾任企業內訓講師） | — | 需 Dex 補素材 |
@@ -54,8 +55,8 @@
 | --- | --- | --- | --- |
 | 迴歸：多模型比較、GridSearchCV、Stacking、Bagging | [iii_HA_modeling_time_inference_ML](../repo-notes/iii_HA_modeling_time_inference_ML.md)、archive 醫院專題 | 🟡 | 同一題比較多種模型與編碼（One-Hot vs Mean Encoding）；Python 與 R 各做一次 |
 | 不平衡分類：F1、IsolationForest、LightGBM | [2019_Esuan_bank_TBrian_CreditCardDetection](../repo-notes/2019_Esuan_bank_TBrian_CreditCardDetection.md) | 🟡 | 為什麼盜刷題不能看 accuracy |
-| 異常偵測：One-Class SVM、SMOTE、TargetEncoder | [Anomaly_Deteciotn_for_Client](../repo-notes/Anomaly_Deteciotn_for_Client.md) | 🟢（推論） | 從 Notebook 到每天跑的風險名單腳本 |
-| XGBoost + 設定檔驅動的特徵工程 | [Potentail_Client_Prediction_XGBoost](../repo-notes/Potentail_Client_Prediction_XGBoost.md) | 🟢（推論） | 把特徵選擇、編碼、切分寫成 XML 設定，模型程式不用改 |
+| 異常偵測：One-Class SVM、SMOTE、TargetEncoder | [Anomaly_Deteciotn_for_Client](../repo-notes/Anomaly_Deteciotn_for_Client.md) | 🟢 | 從 Notebook 到每天跑的風險名單腳本 |
+| XGBoost + 設定檔驅動的特徵工程 | [Potentail_Client_Prediction_XGBoost](../repo-notes/Potentail_Client_Prediction_XGBoost.md) | 🟢 | 把特徵選擇、編碼、切分寫成 XML 設定，模型程式不用改 |
 | 文字：jieba、K-Means、Naive Bayes、embedding | [iii_HA_recommend_system](../repo-notes/iii_HA_recommend_system.md) | 🟡 | 中文斷詞與文章分群 |
 | 推薦：item-based 協同過濾、RFM | [iii_HA_recommend_system](../repo-notes/iii_HA_recommend_system.md)、[2020-Datathon-Demo-by-Python-Django](../repo-notes/2020-Datathon-Demo-by-Python-Django.md) | 🟡 | 點擊紀錄依新舊加權算相似度；RFM 分群 |
 | DL：Keras、CNN、Faster R-CNN 遷移學習 | [ML100-Days](../repo-notes/ML100-Days.md)、[iii_HA_Image_Recognition_DL](../repo-notes/iii_HA_Image_Recognition_DL.md) | ⚪～🟡 | DL 基礎概念；用開源模型做遷移學習。⚠️ 公開證據停在 2019，教進階 DL 前要先更新 |
@@ -102,6 +103,15 @@
 | LINE webhook + 爬取 + 摘要 | [social-scraper](../repo-notes/social-scraper.md) | 🟡 | 2019 年 LINE Bot 的 2026 升級版，適合當「同一個點子七年後怎麼做」 |
 | Claude Code agent、多角色工作流、記憶設計 | [dex-agent-os](../repo-notes/dex-agent-os.md)、[datadevdex](../repo-notes/datadevdex.md)、[daydreamdex](../repo-notes/daydreamdex.md) | 🟡 | 個人 AI 工作系統；skill 與 subagent 的分工 |
 
+### 行銷與社群
+
+| 技術 | 熟練證據 | 強度 | 可以教什麼 |
+| --- | --- | --- | --- |
+| 發文與內容行銷 | 水球軟體學院行銷專員（2025，Dex 口述）；[castflow](../repo-notes/castflow.md) | 🟡 | 把技術內容寫成願意點開的貼文；一份內容改寫成多平台版本 |
+| 行銷漏斗設計 | 同上（口述，無公開 repo） | 🟡 | 從曝光到報名的每一步要量什麼；課程招生漏斗 |
+| 短影音規劃 | 同上（口述，無公開 repo） | 🟡 | 技術主題怎麼切成短影音腳本 |
+| 社群規劃 | 同上（內部社群）；[content-channel.md](../playbooks/content-channel.md) 的 Discord 經營 | 🟡 | 社群分層、新人引導、讓成員自己留下來的節奏 |
+
 ## 適合配對的學員類型
 
 | 學員想走的方向 | Dex 最能幫的地方 | 帶他看的 repo |
@@ -111,5 +121,6 @@
 | 後端 | API、migration、測試、Docker | Grid-Backend、job-hunter-v2 |
 | 製造或能源業轉職 | IoT 協定與時序資料，接得上產業背景 | Grid-Edge、Sails-backend |
 | AI 應用 | 把 LLM 包進一個完整的小產品 | midterm-mvp-template、castflow、social-scraper |
+| 技術轉行銷、技術內容經營 | 把技術講成別人聽得懂的話；漏斗與社群 | castflow、content-channel.md |
 
 ⚠️ 較弱或缺公開證據的地方：進階 DL（2019 後無公開 repo）、前端（主要用模板）、CI/CD 部署 job（見 [../open-questions.md](../open-questions.md) 台股爬蟲課 ci.yml）、資料治理（只有網站自述）。
